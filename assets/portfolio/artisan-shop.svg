@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Artisan Shop — aperçu de marque">
+  <defs>
+    <linearGradient id="art-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1e9d9"/>
+      <stop offset="1" stop-color="#e3d4bb"/>
+    </linearGradient>
+    <linearGradient id="art-vase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c46a43"/>
+      <stop offset="1" stop-color="#8f3f26"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#art-bg)"/>
+  <g stroke="#a9542f" stroke-width="1" opacity=".25">
+    <path d="M0 80h800M0 160h800M0 240h800M0 320h800M0 400h800M0 480h800"/>
+    <path d="M80 0v520M160 0v520M240 0v520M320 0v520M400 0v520M480 0v520M560 0v520M640 0v520M720 0v520"/>
+  </g>
+  <path d="M320 430c-26-44-38-92-38-142 0-24 12-38 34-38h8v-36h72v36h8c22 0 34 14 34 38 0 50-12 98-38 142Z" fill="url(#art-vase)"/>
+  <path d="M330 250h100M336 286h88M342 322h76" stroke="#f1e9d9" stroke-width="5" opacity=".5"/>
+  <path d="M470 430c-8-68 8-124 46-168 10-12 24-18 38-18s28 6 38 18c38 44 54 100 46 168Z" fill="#d9c2a0"/>
+  <path d="M470 430h168" stroke="#8f3f26" stroke-width="5"/>
+  <circle cx="220" cy="330" r="62" fill="#c9a46d"/>
+  <circle cx="220" cy="330" r="42" fill="none" stroke="#f1e9d9" stroke-width="3"/>
+  <path d="M170 330h100" stroke="#8f3f26" stroke-width="2" opacity=".5"/>
+  <text x="72" y="84" fill="#3c2a1f" font-family="Georgia, serif" font-size="24" letter-spacing="9">ARTISAN</text>
+  <text x="72" y="110" fill="#a9542f" font-family="Arial, sans-serif" font-size="9" letter-spacing="4">OBJETS FABRIQUÉS À LA MAIN</text>
+  <text x="72" y="486" fill="#3c2a1f" font-family="Georgia, serif" font-size="34">L'art de la main.</text>
+</svg>

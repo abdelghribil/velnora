@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Nova Beauty — aperçu de marque">
+  <defs>
+    <linearGradient id="nova-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e8e1"/>
+      <stop offset="1" stop-color="#e7d2cb"/>
+    </linearGradient>
+    <linearGradient id="nova-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7ede7"/>
+      <stop offset="1" stop-color="#dcbeb4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#nova-bg)"/>
+  <circle cx="640" cy="90" r="170" fill="#f7efe9" opacity=".5"/>
+  <path d="M282 480V246c0-96 68-166 158-166s158 70 158 166v234Z" fill="#f9f1eb"/>
+  <path d="M310 480V252c0-82 58-142 130-142s130 60 130 142v228Z" fill="none" stroke="#c8a89d" stroke-width="1.5"/>
+  <path d="M376 222c22-30 86-30 108 0 12 16 10 38 4 56-8 24-28 66-58 66s-50-42-58-66c-6-18-8-40 4-56Z" fill="url(#nova-face)"/>
+  <path d="M366 220c26-22 74-22 100 0" fill="none" stroke="#3c2a2c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M382 272c8 5 16 5 24 0M454 272c8 5 16 5 24 0" stroke="#3c2a2c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M416 300c8 5 16 5 24 0" stroke="#b1796e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M424 322c-6 12-14 18-24 20" stroke="#c39488" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <g fill="none" stroke="#c8a89d" stroke-width="2">
+    <circle cx="424" cy="410" r="38"/>
+    <circle cx="424" cy="410" r="56"/>
+    <path d="M424 354v112M368 410h112"/>
+  </g>
+  <text x="96" y="100" fill="#3c2a2c" font-family="Georgia, serif" font-size="22" letter-spacing="12">NOVA</text>
+  <text x="96" y="126" fill="#9b756d" font-family="Arial, sans-serif" font-size="9" letter-spacing="5">BEAUTY &amp; WELLNESS</text>
+  <text x="96" y="454" fill="#3c2a2c" font-family="Georgia, serif" font-size="42" letter-spacing="-1">Votre beauté,</text>
+  <text x="96" y="494" fill="#b1796e" font-family="Georgia, serif" font-style="italic" font-size="42">révélée.</text>
+</svg>

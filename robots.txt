@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Projets conceptuels et pages légales : indexation autorisée pour les études de cas,
+# la politique de confidentialité reste en noindex via sa balise meta.
+Disallow: /404.html
+
+Sitemap: https://velnora.studio/sitemap.xml

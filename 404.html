@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page introuvable (404) | VELNORA STUDIO</title>
+  <meta name="description" content="La page demandée n'existe pas ou a été déplacée. Retournez à l'accueil ou contactez VELNORA STUDIO.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#101828">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/mockups.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="VELNORA STUDIO — Accueil">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="16" fill="#101828"/><path d="M17 19.5 32 45l15-25.5" stroke="#C7F36B" stroke-width="5.5"/><circle cx="32" cy="50" r="2.5" fill="#F7F7F2"/></svg>
+        </span>
+        <span class="brand__type">
+          <span class="brand__name" data-brand="name">VELNORA</span>
+          <span class="brand__suffix" data-brand="suffix">STUDIO</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Projets</a></li>
+          <li><a href="index.html#about">À propos</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <span class="lang-switch" title="Français — English et العربية bientôt disponibles" aria-label="Langue actuelle : français.">FR <span class="lang-switch__muted">/ EN · AR</span></span>
+        <a class="btn btn--dark btn--small header-cta" href="index.html#contact">
+          Parlons-en
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M8 6h10v10" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+          Menu
+          <span class="menu-toggle__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu role="dialog" aria-modal="true" aria-label="Menu principal" hidden>
+    <nav class="mobile-menu__nav" aria-label="Navigation mobile">
+      <ul>
+        <li><a class="mobile-menu__link" href="services.html"><span>01</span>Services</a></li>
+        <li><a class="mobile-menu__link" href="work.html"><span>02</span>Projets</a></li>
+        <li><a class="mobile-menu__link" href="index.html#about"><span>03</span>À propos</a></li>
+        <li><a class="mobile-menu__link" href="insights.html"><span>04</span>Insights</a></li>
+        <li><a class="mobile-menu__link" href="index.html#contact"><span>05</span>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu__footer">
+      <a href="mailto:bonjour@velnora.studio" data-email>bonjour@velnora.studio</a>
+      <a href="https://wa.me/" data-whatsapp>WhatsApp</a>
+      <p class="meta">FR · EN / AR bientôt</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="error-page" aria-labelledby="error-title">
+      <div class="container error-page__inner">
+        <p class="error-page__code" aria-hidden="true">4<span>0</span>4</p>
+        <h1 id="error-title">Cette page n'existe pas.</h1>
+        <p>Le lien est peut-être obsolète, ou l'adresse contient une erreur. Pas de panique : tout le reste est à un clic.</p>
+        <div class="btn-row">
+          <a class="btn" href="index.html">
+            Retour à l'accueil
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M8 6h10v10" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="index.html#contact">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="margin-top:0;border-top:0;">
+        <p>© <span data-year>2026</span> <span data-brand="full">VELNORA STUDIO</span>. Tous droits réservés.</p>
+        <div class="footer-bottom__links">
+          <a href="privacy.html">Politique de confidentialité</a>
+          <a href="#main">Retour en haut</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

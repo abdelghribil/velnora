@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Auto Prime — aperçu de marque">
+  <defs>
+    <linearGradient id="auto-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151a22"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="auto-car" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9eef8"/>
+      <stop offset="1" stop-color="#9aa8bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#auto-bg)"/>
+  <g stroke="#2f7bff" stroke-width="1" opacity=".25">
+    <path d="M0 130h800M0 260h800M0 390h800M160 0v520M320 0v520M480 0v520M640 0v520"/>
+  </g>
+  <path d="M0 430 800 230v70L0 500Z" fill="#2f7bff" opacity=".22"/>
+  <g fill="#2f7bff">
+    <rect x="70" y="386" width="190" height="4"/>
+    <rect x="100" y="404" width="120" height="4" opacity=".7"/>
+    <rect x="60" y="422" width="80" height="4" opacity=".4"/>
+  </g>
+  <path d="M212 350c18-54 62-86 126-94l58-6 40-48c10-12 24-18 40-18h74c20 0 36 8 44 26l28 64c26 8 42 26 42 50v44H212Z" fill="url(#auto-car)"/>
+  <path d="M436 262l34-40c7-8 16-12 28-12h68c12 0 22 4 27 14l22 50Z" fill="#28303d"/>
+  <path d="M458 260l24-28h62l14 28Z" fill="#8fb7ff" opacity=".55"/>
+  <circle cx="304" cy="384" r="42" fill="#080b10" stroke="#5f6d84" stroke-width="6"/>
+  <circle cx="304" cy="384" r="16" fill="#2f7bff"/>
+  <circle cx="584" cy="384" r="42" fill="#080b10" stroke="#5f6d84" stroke-width="6"/>
+  <circle cx="584" cy="384" r="16" fill="#2f7bff"/>
+  <text x="60" y="84" fill="#ffffff" font-family="Arial Black, Arial, sans-serif" font-size="24" letter-spacing="6">AUTO PRIME</text>
+  <text x="60" y="110" fill="#2f7bff" font-family="Arial, sans-serif" font-size="9" letter-spacing="4">ENTRETIEN &amp; PERFORMANCE</text>
+  <text x="60" y="170" fill="#ffffff" font-family="Arial Black, Arial, sans-serif" font-size="34" letter-spacing="-1">LA ROUTE.</text>
+</svg>
